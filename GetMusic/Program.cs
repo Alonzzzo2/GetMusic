@@ -21,7 +21,7 @@ namespace GetMusic
              * 7. save it all at a dir called [playlist name]+[date]
              */
 
-            YouTubeClient youtubeClient = new YouTubeClient("AIzaSyB4LxrwY8neRJ5x3uoQpDRmCyD4J-P1vN4");
+            YouTubeClient youtubeClient = new YouTubeClient(string.Empty /*You YouTube API here*/);
 
 
             YouTubePlaylistsResponse.RootObject playlists = youtubeClient.GetUsersPlaylists("UCePh7tbI8ZRatctu9GWuuKQ");
